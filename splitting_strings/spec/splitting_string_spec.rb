@@ -14,6 +14,10 @@ describe '.splitting_strings' do
     expect(splitting_strings('abcde')).to eq ['ab', 'cd', 'e_']
   end
 
+  it 'returns an empty array when passed an empty string' do
+    expect(splitting_strings('')).to eq []
+  end
+
 end
 
 describe '.underscore_needed?' do
