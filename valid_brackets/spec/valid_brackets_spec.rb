@@ -10,12 +10,20 @@ describe '.valid_brackets' do
     expect(valid_brackets('())')).to eq false
   end
 
-  it 'returns false for ...' do
+  it 'returns false for a long incorrect bracket' do
     expect(valid_brackets(')(()))')).to eq false
   end
 
   it 'returns false for a single bracket' do
     expect(valid_brackets('(')).to eq false
+  end
+
+  it 'returns true for a long correct bracket' do
+    expect(valid_brackets('(())((()())())')).to eq true
+  end
+
+  it 'returns true for an empty string' do
+    expect(valid_brackets('')).to eq true
   end
 
 end
