@@ -9,5 +9,12 @@ describe '.string_incrementer' do
     expect(string_incrementer('foo002')).to eq 'foo003'
   end
 
-  
+  it 'works when passed a string with no number' do
+    expect(string_incrementer('foobar')).to eq 'foobar1'
+  end
+
+  it 'works when there are numbers inside the string too' do
+    expect(string_incrementer('f00bar1')).to eq 'f00bar2'
+  end
+
 end
