@@ -9,5 +9,9 @@ describe '.multiple_sum' do
     expect(multiple_sum(-10)).to eq 0
   end
 
+  it 'works for a large number' do
+    expect(multiple_sum(200)).to eq 9168
+  end
+
 
 end
