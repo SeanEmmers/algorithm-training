@@ -14,4 +14,8 @@ describe '.valid_brackets' do
     expect(valid_brackets(')(()))')).to eq false
   end
 
+  it 'returns false for a single bracket' do
+    expect(valid_brackets('(')).to eq false
+  end
+
 end
