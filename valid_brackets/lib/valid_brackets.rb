@@ -10,6 +10,7 @@ def valid_brackets(brackets)
   end
 
   enclosed = true if brackets[0] == "(" && brackets[-1] == ")"
+  enclosed = true if brackets.empty?
 
   left_bracket == right_bracket && enclosed == true
 
