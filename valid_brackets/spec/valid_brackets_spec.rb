@@ -25,5 +25,9 @@ describe '.valid_brackets' do
   it 'returns true for an empty string' do
     expect(valid_brackets('')).to eq true
   end
+  
+  it 'returns true when passed letters alongside brackets' do
+    expect(valid_brackets('hi(hi)()')).to eq true
+  end
 
 end
