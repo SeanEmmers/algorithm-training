@@ -1,5 +1,5 @@
 def expanded_numbers(num)
 
-  num
+  num.to_s
 
 end
