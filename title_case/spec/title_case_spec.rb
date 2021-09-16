@@ -26,5 +26,9 @@ describe '.title_case' do
     expect(title_case('bar foo','food')).to eq 'Bar Foo' 
   end
 
+  it 'still works with capital letters' do
+    expect(title_case('Bar Foo hello WORLD', 'foo Hello')).to eq 'Bar foo hello World'
+  end
+
 
 end
