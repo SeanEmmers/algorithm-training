@@ -5,7 +5,8 @@ describe '.splitting_colas' do
     expect(splitting_colas(['Sean'], 1)).to eq 'Sean'
   end 
 
-  it 'returns the second person in the que'
-
+  it 'returns the second person in the queue when the number is two' do
+    expect(splitting_colas(['Sean', 'Julia'], 2)).to eq 'Julia'
+  end
 
 end
