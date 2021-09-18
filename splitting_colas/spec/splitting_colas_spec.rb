@@ -13,4 +13,12 @@ describe '.splitting_colas' do
     expect(splitting_colas(['Sean', 'Julia'], 3)).to eq 'Sean'
   end
 
+  it 'works with 4' do
+    expect(splitting_colas(['Sean', 'Julia'], 4)).to eq 'Sean'
+  end
+
+  it 'works with 5' do
+    expect(splitting_colas(['Sean', 'Julia'], 5)).to eq 'Julia'
+  end
+
 end
