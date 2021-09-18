@@ -1,5 +1,5 @@
 def splitting_colas(names, number)
 
-  names[0]
+  names[number - 1]
 
 end

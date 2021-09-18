@@ -9,4 +9,8 @@ describe '.splitting_colas' do
     expect(splitting_colas(['Sean', 'Julia'], 2)).to eq 'Julia'
   end
 
+  it 'returns the correct answer when the first person has been doubled' do
+    expect(splitting_colas(['Sean', 'Julia'], 3)).to eq 'Sean'
+  end
+
 end
