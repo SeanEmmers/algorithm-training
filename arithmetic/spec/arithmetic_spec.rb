@@ -9,6 +9,10 @@ describe '.arithmetic' do
     expect(arithmetic(1,1,'subtract')).to eq 0
   end
 
+  it 'can multiply a number' do
+    expect(arithmetic(1,1,'mulitply')).to eq 1
+  end
+
 
 
 
