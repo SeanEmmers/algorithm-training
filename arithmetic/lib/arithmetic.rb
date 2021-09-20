@@ -1,5 +1,5 @@
 def arithmetic(num1, num2, action)
 
-  num1 + num2
+  action == 'add' ? num1 + num2 : num1 - num2
 
 end
