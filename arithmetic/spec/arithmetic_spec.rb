@@ -10,7 +10,7 @@ describe '.arithmetic' do
   end
 
   it 'can multiply a number' do
-    expect(arithmetic(1,1,'mulitply')).to eq 1
+    expect(arithmetic(1,1,'multiply')).to eq 1
   end
 
 

@@ -1,5 +1,8 @@
 def arithmetic(num1, num2, action)
 
-  action == 'add' ? num1 + num2 : num1 - num2
+  
+  return num1 + num2 if action == 'add'
+  return num1 - num2 if action == 'subtract'
+  return num1 * num2 if action == 'multiply'
 
 end
