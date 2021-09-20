@@ -17,6 +17,10 @@ describe '.arithmetic' do
     expect(arithmetic(1,1,'divide')).to eq 1
   end
 
+  it 'still works with capitilized words' do
+    expect(arithmetic(2,2,'ADD')).to eq 4
+  end
+
 
 
 
