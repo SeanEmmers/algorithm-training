@@ -13,6 +13,10 @@ describe '.arithmetic' do
     expect(arithmetic(1,1,'multiply')).to eq 1
   end
 
+  it 'can divide a number' do
+    expect(arithmetic(1,1,'divide')).to eq 1
+  end
+
 
 
 
