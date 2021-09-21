@@ -6,5 +6,8 @@ describe 'odd_string_index' do
     expect(odd_string_index('foo')).to eq 'FoO'
   end
 
+  it 'works with spaces' do
+    expect(odd_string_index('foo bar')).to eq 'FoO BaR'
+  end
 
 end
