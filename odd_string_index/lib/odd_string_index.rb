@@ -1,6 +1,9 @@
 def odd_string_index(string)
 
-  string.capitalize!
+  final = []
+  string.split('').each_with_index { |letter, i| 
+    i % 2 == 0 ? final << letter.capitalize : final << letter.downcase
+  }
 
-
+  final.join
 end
