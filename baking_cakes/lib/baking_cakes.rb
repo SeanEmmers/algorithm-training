@@ -8,8 +8,7 @@ def baking_cakes(recipe, ingredients)
 
   recipe.each_key { |ingredient| weights << 0 unless ingredients.include?(ingredient) }
 
-  weights.sort!
-  weights[0]
+  weights.min
 
 
 end
