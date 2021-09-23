@@ -6,7 +6,7 @@ describe '.camel_case' do
   end
 
   it 'works for two words' do
-    expect(camel_case('hello world')).to eq 'Hello World'
+    expect(camel_case('hello world')).to eq 'HelloWorld'
   end
 
 
