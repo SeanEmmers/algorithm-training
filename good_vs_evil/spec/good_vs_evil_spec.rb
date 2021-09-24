@@ -14,6 +14,4 @@ describe 'good_vs_evil' do
   end
 
 
-
-
 end
