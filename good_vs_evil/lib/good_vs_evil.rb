@@ -8,4 +8,7 @@ def good_vs_evil(good_army, evil_army)
 
   return "Battle Result: Good triumphs over Evil" if good_count > evil_count
 
+  return "Battle Result: Evil eradicates all trace of Good" if evil_count > good_count
+
+  
 end
