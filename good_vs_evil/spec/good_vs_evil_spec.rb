@@ -8,6 +8,7 @@ describe 'good_vs_evil' do
   it 'returns the correct string when evil wins' do
     expect(good_vs_evil('0 1 0 0 0 1', '0 1 1 1 1 1 0')).to eq "Battle Result: Evil eradicates all trace of Good"
   end
+  
 
 
 
