@@ -7,8 +7,7 @@ def deadfish(data)
     arr << num if letter == 'o'
     num += 1 if letter == 'i'
     num -= 1 if letter == 'd'
-
-
+    num * num if letter == 's'
   end
 
   arr

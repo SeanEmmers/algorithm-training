@@ -17,6 +17,10 @@ describe '.deadfish' do
     expect(deadfish('iido')).to eq [1]
   end
 
+  it 'sqaures the value when s is present' do
+    expect(deadfish('iiso')).to eq [4]
+  end
+
 
 
 end
