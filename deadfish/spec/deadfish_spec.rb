@@ -13,6 +13,10 @@ describe '.deadfish' do
     expect(deadfish('ooo')).to eq [0,0,0]
   end
 
+  it 'decreases the value when d is present' do 
+    expect(deadfish('iido')).to eq [1]
+  end
+
 
 
 end
