@@ -21,6 +21,10 @@ describe '.deadfish' do
     expect(deadfish('iiso')).to eq [4]
   end
 
+  it 'returns an empty array when an empty string is passed' do
+    expect(deadfish('')).to eq []
+  end
+
 
 
 end
