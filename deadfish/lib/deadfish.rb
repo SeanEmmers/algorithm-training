@@ -1,15 +1,18 @@
 def deadfish(data)
 
   num = 0
-  arr = []
+  output = []
 
-  data.downcase.split('').each do |letter| 
-    arr << num if letter == 'o'
-    num += 1 if letter == 'i'
-    num -= 1 if letter == 'd'
-    num *= num if letter == 's'
+  data.downcase.split('').each do |letter|
+    case letter
+      when 'o' then output << num 
+      when 'i' then num += 1
+      when 'd' then num -= 1
+      when 's' then num *= num
+    end
+      
   end
 
-  arr
+  output
 
 end
