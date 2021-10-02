@@ -25,6 +25,4 @@ describe '.deadfish' do
     expect(deadfish('')).to eq []
   end
 
-
-
 end
