@@ -13,5 +13,4 @@ def deadfish(data)
       
   end
   output
-  
 end
