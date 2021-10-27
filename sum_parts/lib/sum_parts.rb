@@ -1,5 +1,7 @@
 def sum_parts(ls)
 
-  [0]
+  arr = []
+
+  arr << 0
 
 end
