@@ -1,0 +1,2 @@
+require 'sum_parts'
+
