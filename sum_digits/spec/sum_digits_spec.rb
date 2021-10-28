@@ -9,5 +9,7 @@ describe 'sum_digits' do
     expect(sum_digits(11)).to eq 2
   end
 
+  it 'works with a larger 2 digit '
+
 
 end
