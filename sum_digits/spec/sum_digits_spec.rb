@@ -13,5 +13,9 @@ describe 'sum_digits' do
     expect(sum_digits(75)).to eq 12
   end
 
+  it 'works with a negative int' do
+    expect(sum_digits(-32)).to eq 5
+  end
+
 
 end
